@@ -73,15 +73,11 @@ a{
     text-decoration: none;
     color: #11272b;
 }
-header{
-    position: fixed; 
-    margin: 0; 
-    padding: 0;
-}
 
 .wrapper{
     width: 1280px;
     margin: 0 auto;
+    padding: 0 auto;
 
 }
 
@@ -112,11 +108,7 @@ header{
 }
 
 .promo{
-    padding-top: 767px; 
-    background-image: url(../images/bg_main.jpg); 
-    background-repeat: no-repeat; 
-    background-position: 100% 0; 
-
+    
 }
 
 .promo_subtitle{
