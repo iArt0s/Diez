@@ -37,3 +37,88 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 55px;
+    
+
+}
+
+h2{
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+
+h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #11272b;
+}
+header{
+    position: fixed; 
+    margin: 0; 
+    padding: 0;
+}
+
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.container{
+    width: 1204px;
+    margin: 0 auto;
+}
+
+.header_logo{
+    font-size: 30px;
+    color: #eec643;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_item{
+    margin-right: 30px;
+}
+
+.promo{
+    padding-top: 767px; 
+    background-image: url(../images/bg_main.jpg); 
+    background-repeat: no-repeat; 
+    background-position: 100% 0; 
+
+}
+
+.promo_subtitle{
+    font-size: 
+}
