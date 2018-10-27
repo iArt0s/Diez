@@ -77,8 +77,6 @@ a{
 .wrapper{
     width: 1280px;
     margin: 0 auto;
-    padding: 0 auto;
-
 }
 
 .container{
@@ -108,7 +106,10 @@ a{
 }
 
 .promo{
-    
+    height: 770px; 
+    margin: 0; 
+    background: url(../images/bg_main.jpg) no-repeat 100%; 
+
 }
 
 .promo_subtitle{
