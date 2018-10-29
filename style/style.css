@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'PT Sans';
     src: url('../fonts/PTSans-BoldItalic.woff2') format('woff2'),
-        url('../fonts/PTSans-BoldItalic.woff') format('woff');
+    url('../fonts/PTSans-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'PT Sans';
     src: url('../fonts/PTSans-Bold.woff2') format('woff2'),
-        url('../fonts/PTSans-Bold.woff') format('woff');
+    url('../fonts/PTSans-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'PT Sans';
     src: url('../fonts/PTSans-Regular.woff2') format('woff2'),
-        url('../fonts/PTSans-Regular.woff') format('woff');
+    url('../fonts/PTSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -25,7 +25,7 @@
 @font-face {
     font-family: 'PT Sans';
     src: url('../fonts/PTSans-Italic.woff2') format('woff2'),
-        url('../fonts/PTSans-Italic.woff') format('woff');
+    url('../fonts/PTSans-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
@@ -33,7 +33,7 @@
 @font-face {
     font-family: 'Prata';
     src: url('../fonts/Prata-Regular.woff2') format('woff2'),
-        url('../fonts/Prata-Regular.woff') format('woff');
+    url('../fonts/Prata-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -191,7 +191,7 @@ input {
     border-bottom: 2px solid #021a23;
     line-height: 28px;
     height: 30px;
-   
+
 }
 select {
     font-size: 16px;
@@ -240,63 +240,54 @@ select {
 @media (min-width: 1200px) {
   .container {
     margin: 0 auto;
-  }
-  .offset {
-    margin-left: 8.33%;
-  }
-  .col-3,.col-5,.col-6,.direction_text {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .col-3 {
-    width: 25%;
-  }
-  .col-5 {
-    width: 41.66%;
-  }
-  .col-6 {
-    width: 50%;
-  }
+    }
+    .offset {
+        margin-left: 8.33%;
+    }
+    .col-3,.col-5,.col-6,.direction_text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
 
-  .direction_card_guitar
-  {
-    background-image: url(../images/directions_card_img_1.jpg);
-
-  }
- .direction_card_vocal{
-    background-image: url(../images/directions_card_img_2.jpg);
- }
-   .direction_card_fort{
-    background-image: url(../images/directions_card_img_3.jpg);
-   }
-
-   .direction_card_lessons{
-    background-image: url(../images/directions_card_img_4.jpg);
-   }
-   .direction_card_btn {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    background-color: #eec643;
-    color: #fff;
+    .direction_card_guitar{
+        background-image: url(../images/directions_card_img_1.jpg);
+    }
+    .direction_card_vocal{
+        background-image: url(../images/directions_card_img_2.jpg);
+    }
+    .direction_card_fort{
+        background-image: url(../images/directions_card_img_3.jpg);
+    }
+    .direction_card_lessons{
+        background-image: url(../images/directions_card_img_4.jpg);
+    }
+    .direction_card_btn {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        background-color: #eec643;
+        color: #fff;
+    }
+    .direction_inner_title{
+        writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        margin-left: -15px;
+        margin-left: -15px;
+        position: relative;
+        margin-top: 16px;
+    }
+    .direction_text{
+        position: absolute;
+        margin-top: 91px;
+        margin-bottom: 10px;
+    }
 }
-.direction_inner_title{
-    writing-mode: vertical-lr;
-    transform: rotate(-180deg);
-    margin-left: -15px;
-    margin-left: -15px;
-    position: relative;
-    margin-top: 16px;
-
-
-
-}
-.direction_text{
-    position: absolute;
-    margin-top: 91px;
-    margin-bottom: 10px;
- 
-}
-}
-
-/*forma*/
