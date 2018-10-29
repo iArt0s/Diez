@@ -244,7 +244,7 @@ select {
   .offset {
     margin-left: 8.33%;
   }
-  .col-3,.col-5,.col-6 {
+  .col-3,.col-5,.col-6,.direction_text {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -279,6 +279,24 @@ select {
     font-size: 30px;
     background-color: #eec643;
     color: #fff;
+}
+.direction_inner_title{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    margin-left: -15px;
+    margin-left: -15px;
+    position: relative;
+    margin-top: 16px;
+
+
+
+}
+.direction_text{
+    position: absolute;
+    margin-top: 91px;
+    margin-bottom: 10px;
+ 
+
 }
 
 /*forma*/
