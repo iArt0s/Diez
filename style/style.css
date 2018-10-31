@@ -59,6 +59,7 @@ h2{
     font-family: 'Prata', serif;
     font-weight: 400;
     font-size: 50px;
+    line-height: 1.4;
 
 }
 
@@ -119,7 +120,9 @@ a{
 
 }
 
-
+.promo{
+    margin-bottom: 92px;
+}
 .promo_subtitle{
     color: #fff;
 
@@ -128,10 +131,7 @@ a{
     display: flex;
 }
 
-/*forma*/
-
 .text-wrap{
-  /*  display: flex;*/
   width: 73%;
 }
 
@@ -141,8 +141,6 @@ a{
 }
 .formblock{
     position: relative;
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
     height:420px;
     width:270px;
     border: 2px solid #000;
@@ -156,7 +154,7 @@ a{
 .formblock__title {
     margin: 0;
     line-height: 1;
-    padding-top: 28px; 
+    padding-top: 12px; 
     margin-bottom: 30px;
 }
 
@@ -176,7 +174,7 @@ a{
     background-color: transparent;
     border: 0;
     box-shadow: none;
-    background-color: #000;
+    background-color: #021a23;
     position: absolute;
     bottom: 0;
     height: 70px;
@@ -236,10 +234,24 @@ select {
   display: block;
   color: #fff;
 }
+.temp_card {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 468px;
+  display: block;
+  color: #fff;
+}
+
+.directions{
+    margin-bottom: 92px;
+}
 
 @media (min-width: 1200px) {
-  .container {
-    margin: 0 auto;
+    .container {
+        margin: 0 auto;
     }
     .offset {
         margin-left: 8.33%;
@@ -257,7 +269,6 @@ select {
     .col-6 {
         width: 50%;
     }
-
     .direction_card_guitar{
         background-image: url(../images/directions_card_img_1.jpg);
     }
@@ -281,7 +292,6 @@ select {
         writing-mode: vertical-lr;
         transform: rotate(-180deg);
         margin-left: -15px;
-        margin-left: -15px;
         position: relative;
         margin-top: 16px;
     }
@@ -289,5 +299,45 @@ select {
         position: absolute;
         margin-top: 91px;
         margin-bottom: 10px;
+    }
+    .direction_text:after {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 100%;
+      width: 1px;
+      background-color: #bbb;
+      bottom: 0;
+      left: 0;
+    }
+
+    .direction_text:before {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 100%;
+      width: 1px;
+      background-color: #bbb;
+      right: 0;
+    }
+    .temp_card_crew{
+    background-image: url(../images/advantages_card_img_1.jpg);
+    background-size: cover;
+    background-position: 24% 0;;
+    }
+    .temp_card_result{
+    background-image: url(../images/advantages_card_img_2.jpg);
+    background-size: cover;
+    background-position: -120% 0;
+    }
+    .temp_card_studio{
+    background-image: url(../images/advantages_card_img_3.jpg);
+    background-size: cover;
+    }
+    .temp_text{
+    color: #000;
+    }
+    .temp_card_studio{
+    height: 568px;
     }
 }
