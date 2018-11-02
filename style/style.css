@@ -241,15 +241,30 @@ select {
   padding-right: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
+  min-width: 270px;
   min-height: 470px;
   display: block;
   color: #fff;
+}
+.school_big_card {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    width: 775px;
+    height: 570px;
+    display: block;
+    color: #fff;
 }
 
 .directions{
     margin-bottom: 92px;
 }
-
+.subrow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
 @media (min-width: 1200px) {
     .container {
         margin: 0 auto;
@@ -269,6 +284,9 @@ select {
     }
     .col-6 {
         width: 50%;
+    }
+    .col-8 {
+        width: 66.64%%;
     }
     .direction_card_guitar{       
         background-image: url(../images/directions_card_img_1.jpg);
@@ -324,7 +342,7 @@ select {
     .temp_card_crew{
     background-image: url(../images/advantages_card_img_1.jpg);
     background-size: cover;
-    background-position: 24% 0;;
+    background-position: 24% 0;
     }
     .temp_card_result{
     background-image: url(../images/advantages_card_img_2.jpg);
@@ -341,4 +359,59 @@ select {
     .temp_card_studio{
     height: 568px;
     }
+    .temp_title{
+        width: 100%;
+    }
+    
+    .form_temp{
+        padding-top: 20px;
+        padding-left: 30px;
+        position: relative;
+        min-height:570px;
+        max-width:270px;
+        border: 2px solid #eec643;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .formtemp__inner {
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .formtemp__title {
+        margin: 0;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+
+    .formtemp_subtitle {
+        margin-top:0px;
+
+    }
+
+    .formtemp__input {
+        margin-bottom: 5px; 
+        margin-top: 60px;    
+        display: block;
+        width: 100%;
+        background-color: transparent;
+        box-shadow: none;
+        border-bottom: 2px solid #eec643;
+        line-height: 10px;
+        height: 20px;
+    }
+    .button_formtemp {
+        width: 100%;
+        border: 0;
+        box-shadow: none;
+        background-color: #eec643;
+        position: absolute;
+        bottom: 0;
+        height: 70px;
+        color: #f9fcfc;
+        font-size: 20px;
+    }
+
+      .cherry_card{
+        background-image: url(../images/video_card_img_1.jpg);
+      }
 }
