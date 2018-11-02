@@ -225,7 +225,7 @@ select {
   flex-wrap: wrap;
 }
 
-.direction_card {
+.direction_card { 
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -362,7 +362,6 @@ select {
     .temp_title{
         width: 100%;
     }
-    
     .form_temp{
         padding-top: 20px;
         padding-left: 30px;
@@ -382,12 +381,10 @@ select {
         line-height: 1;
         margin-bottom: 30px;
     }
-
     .formtemp_subtitle {
         margin-top:0px;
 
     }
-
     .formtemp__input {
         margin-bottom: 5px; 
         margin-top: 60px;    
@@ -410,8 +407,7 @@ select {
         color: #f9fcfc;
         font-size: 20px;
     }
-
       .cherry_card{
         background-image: url(../images/video_card_img_1.jpg);
-      }
+    }
 }
