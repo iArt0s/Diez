@@ -224,6 +224,14 @@ select {
   display: flex;
   flex-wrap: wrap;
 }
+.row_school {
+  margin-left: -15px;
+  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
 
 .direction_card { 
   width: 100%;
@@ -250,11 +258,13 @@ select {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 10px;
+    margin-top: 10px;  
+    margin-bottom: 10px;
     width: 775px;
     height: 570px;
     display: block;
     color: #fff;
+    flex-grow: 1;
 }
 
 .directions{
@@ -272,7 +282,7 @@ select {
     .offset {
         margin-left: 8.33%;
     }
-    .col-3,.col-5,.col-6,.direction_text {
+    .col-3,.col-5,.col-6,.direction_text,.school_title_wrap {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -407,7 +417,49 @@ select {
         color: #f9fcfc;
         font-size: 20px;
     }
+    .school{
+        margin-bottom: 90px;
+    }
       .cherry_card{
         background-image: url(../images/video_card_img_1.jpg);
+        background-size: cover;
+        background-position: 60% 0;
+
+    }
+    .school_title_wrap{
+        position: absolute;
+        margin-top: 91px;
+        margin-bottom: 10px;
+    }
+    .school_title{
+        writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        margin-left: -15px;
+        position: relative;
+        margin-top: 16px;
+
+    }
+     .school_title_wrap:after {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 100%;
+      width: 1px;
+      background-color: #bbb;
+      bottom: 0;
+      left: 0;
+    }
+
+    .school_title_wrap:before {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 100%;
+      width: 1px;
+      background-color: #bbb;
+      right: 0;
+    }
+    .card_yang{
+        background-image: url(../images/video_card_img_2.jpg);
     }
 }
