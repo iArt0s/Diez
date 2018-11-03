@@ -266,6 +266,11 @@ select {
     flex-wrap: wrap;
     width: 50%;
 }
+.contacts_subrow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
 @media (min-width: 1200px) {
     .container {
         margin: 0 auto;
@@ -413,6 +418,9 @@ select {
         margin-bottom: 90px;
     }
     .school{
+        margin-top: 90px;
+    }
+    .contacts{
         margin-top: 90px;
     }
       .cherry_card{
