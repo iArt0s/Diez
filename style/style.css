@@ -224,14 +224,6 @@ select {
   display: flex;
   flex-wrap: wrap;
 }
-.row_school {
-  margin-left: -15px;
-  margin-left: -15px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-
-}
 
 .direction_card { 
   width: 100%;
@@ -239,7 +231,7 @@ select {
   padding-right: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 270px;
+  min-height: 270px;
   display: block;
   color: #fff;
 }
@@ -254,17 +246,16 @@ select {
   display: block;
   color: #fff;
 }
-.school_big_card {
+.school_card {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 10px;  
     margin-bottom: 10px;
-    width: 775px;
-    height: 570px;
     display: block;
     color: #fff;
-    flex-grow: 1;
+    min-height: 170px;
+    
 }
 
 .directions{
@@ -278,6 +269,7 @@ select {
 @media (min-width: 1200px) {
     .container {
         margin: 0 auto;
+        position: relative;
     }
     .offset {
         margin-left: 8.33%;
@@ -417,26 +409,35 @@ select {
         color: #f9fcfc;
         font-size: 20px;
     }
-    .school{
+    .temp{
         margin-bottom: 90px;
+    }
+    .school{
+        margin-top: 90px;
     }
       .cherry_card{
         background-image: url(../images/video_card_img_1.jpg);
         background-size: cover;
         background-position: 60% 0;
+        width: 775px;
+        height: 570px
 
     }
     .school_title_wrap{
         position: absolute;
-        margin-top: 91px;
-        margin-bottom: 10px;
+        width: 70px;
+        padding: 0;
+        margin: 0;
+        bottom: 0
     }
     .school_title{
         writing-mode: vertical-lr;
         transform: rotate(-180deg);
         margin-left: -15px;
         position: relative;
-        margin-top: 16px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
 
     }
      .school_title_wrap:after {
@@ -459,7 +460,23 @@ select {
       background-color: #bbb;
       right: 0;
     }
-    .card_yang{
+    .school_text,.school_subtitle{
+       padding-top: 60px;
+       font-size: 14px;
+       margin: 0;
+
+    }
+    .school_card_yang{
         background-image: url(../images/video_card_img_2.jpg);
+        background-size: cover;
+
+    }
+    .school_card_summer{
+        background-image: url(../images/video_card_img_3.jpg);
+        background-size: cover;
+    }
+    .school_card_pony{
+        background-image: url(../images/video_card_img_4.jpg);
+        background-size: cover;
     }
 }
