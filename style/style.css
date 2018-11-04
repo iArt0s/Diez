@@ -67,6 +67,7 @@ h3{
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 30px;
+    margin: 0;
 }
 
 p{
@@ -168,7 +169,6 @@ a{
     margin-bottom: 15px; 
     margin-top: 30px;    
     display: block;
-
 }
 .button_formblock {
     width: 100%;
@@ -182,7 +182,7 @@ a{
     color: #f9fcfc;
     font-size: 20px;
 }
-input {
+.formblock__input input {
     width: 100%;
     background-color: transparent;
     border: 0;
@@ -190,7 +190,6 @@ input {
     border-bottom: 2px solid #021a23;
     line-height: 28px;
     height: 30px;
-
 }
 select {
     font-size: 16px;
@@ -230,8 +229,8 @@ select {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 0;
+  margin-bottom: 30px;
   min-height: 270px;
   display: block;
   color: #fff;
@@ -240,8 +239,8 @@ select {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 0;
+  height: 100%;
   min-width: 270px;
   min-height: 470px;
   display: block;
@@ -250,9 +249,8 @@ select {
 .school_card {
     width: 100%;
     padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 10px;  
-    margin-bottom: 10px;
+    padding-right: 15px;  
+    margin-bottom: 30px;
     display: block;
     color: #fff;
     min-height: 170px;
@@ -267,7 +265,7 @@ select {
     flex-wrap: wrap;
     width: 50%;
 }
-.contacts_subrow{
+.col-9{
     display: flex;
     flex-wrap: wrap;
     width: 75%;
@@ -280,7 +278,12 @@ select {
     .offset {
         margin-left: 8.33%;
     }
-    .col-3,.col-5,.col-6,.direction_text,.school_title_wrap {
+    .col-3,
+    .col-5,
+    .col-6,
+    .col-9,
+    .direction_text,
+    .school_title_wrap {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -294,8 +297,9 @@ select {
         width: 50%;
     }
     .col-8 {
-        width: 66.64%%;
+        width: 66.64%;
     }
+
     .direction_card_guitar{       
         background-image: url(../images/directions_card_img_1.jpg);
     }
@@ -366,29 +370,37 @@ select {
     .temp_card_studio{
     background-image: url(../images/advantages_card_img_3.jpg);
     background-size: cover;
+    min-height: 568px;
     }
     .temp_text{
     color: #000;
     }
-    .temp_card_studio{
-    height: 568px;
-    }
     .temp_title{
         width: 100%;
     }
+    .inputs{
+      height: 50%;
+    }
     .form_temp{
         padding-top: 20px;
-        padding-left: 30px;
         position: relative;
         min-height:570px;
+        height: 100%;
         max-width:270px;
         border: 2px solid #eec643;
         background-color: rgba(255, 255, 255, 0.9);
     }
+    .formtemp {
+      height: 100%;
+    }
     .formtemp__inner {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
         padding-top: 30px;
         padding-left: 20px;
         padding-right: 15px;
+        height: 100%;
     }
     .formtemp__title {
         margin: 0;
@@ -406,10 +418,38 @@ select {
         width: 100%;
         background-color: transparent;
         box-shadow: none;
-        border-bottom: 2px solid #eec643;
-        line-height: 10px;
         height: 20px;
     }
+    .formtemp__input {
+    margin-bottom: 15px; 
+    margin-top: 30px;    
+    display: block;
+}
+/*.button_formblock {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    background-color: #021a23;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    color: #f9fcfc;
+    font-size: 20px;
+}*/
+.formtemp__input input {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #eec643;
+    line-height: 28px;
+    height: 30px;
+}
+.formtemp__select {
+      border-bottom: 2px solid #eec643;
+
+}
     .button_formtemp {
         width: 100%;
         border: 0;
@@ -438,6 +478,10 @@ select {
         margin-top: 90px;
         margin-bottom: 55px;
     }
+    .yamap{
+        min-width: 100%;
+        min-height: 400px;
+    }
 
       .cherry_card{
         background-image: url(../images/video_card_img_1.jpg);
@@ -452,7 +496,7 @@ select {
         width: 70px;
         padding: 0;
         margin: 0;
-        bottom: 0
+        bottom: 30px;
     }
     .school_title{
         writing-mode: vertical-lr;
@@ -503,4 +547,31 @@ select {
         background-image: url(../images/video_card_img_4.jpg);
         background-size: cover;
     }
+    .title_hor{
+      width: 100%;
+      max-width: 570px;
+      position: relative;
+      margin-top: 0;
+    }
+    .title_hor:before{
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 1px;
+      width: 100%;
+      background-color: #bbb;
+      top: 0;
+      left: 0;
+    }
+    .title_hor:after{
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 1px;
+      width: 100%;
+      background-color: #bbb;
+      bottom: 0;
+      left: 0;
+    }
+
 }

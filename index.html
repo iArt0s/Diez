@@ -50,7 +50,7 @@
 								</select>
 							</div>
 							<button class="button_formblock">ЗАПИСАТЬСЯ</button>
-						</div>
+						</form>
 					</div>
 				</section>
 				<section class="directions">
@@ -97,7 +97,7 @@
 					<div class="container">		
 						<div class="row">
 							<div class="subrow">
-								<h3 class="temp_title">Задаем темп</h3>
+								<h2 class="temp_title title_hor">Задаем темп</h2>
 								<div class="col-6">
 									<a href="" class="temp_card temp_card_crew">
 										<h3 class="temp_title">Состав</h3>
@@ -120,21 +120,23 @@
 							<div class="col-3">
 								<div class="form_temp">
 									<form action='' class="formtemp">
-										<div class="formtemp__inner">
+										<div class="formtemp__inner"> <div class="titles">
+											
+										
 											<h3 class="formtemp__title">Вводный урок</h3>
-											<span class="formtemp_subtitle">Попробуй любые <br> направления  бесплатно</span>
+											<span class="formtemp_subtitle">Попробуй любые <br> направления  бесплатно</span></div> <div class="inputs">
 											<div class="formtemp__input">
 												<input id="name" placeholder="Введите имя" name='name' type="text">
 											</div>
 											<div class="formtemp__input">
 												<input  placeholder="Введите телефон" name='phone' type="tel">
 											</div>
-											<select name="select" id="">
+											<select class='formtemp__select' name="select" id="">
 												<option value="" selected>Направления</option>
 												<option value="">Гитара</option>
 												<option value="">Вокал</option>
 												<option value="">Фортепиано</option>
-											</select>
+											</select></div>
 										</div>
 										<button class="button_formtemp">ЗАПИСАТЬСЯ</button>
 									</form>
@@ -178,29 +180,32 @@
 				<section class="contacts">
 					<div class="container">
 						<div class="row">
-							<div class="contacts_subrow">
-								<h3 class="contacts_title">Ждем тебя</h3>
+							<div class="col-9">
+								<h2 class="contacts_title title_hor">Ждем тебя</h2>
 								<p class="contacts_subtitle">+7 (812) 566 56 56<br>СПБ, 6-я Линия ВО, 42</p>
-								<div id="map" class="col-9" style="width: 600px; height: 400px"></div>
+								<div id="map" class="yamap"></div>
 							</div>
 							<div class="col-3">
 								<div class="form_temp">
 									<form action='' class="formtemp">
-										<div class="formtemp__inner">
+										<div class="formtemp__inner"> 
+											<div class="titles">
 											<h3 class="formtemp__title">Вводный урок</h3>
-											<span class="formtemp_subtitle">Попробуй любые <br> направления  бесплатно</span>
+											<span class="formtemp_subtitle">Попробуй любые <br> направления  бесплатно</span></div>
+											<div class="inputs">	
 											<div class="formtemp__input">
 												<input id="name" placeholder="Введите имя" name='name' type="text">
 											</div>
 											<div class="formtemp__input">
 												<input  placeholder="Введите телефон" name='phone' type="tel">
 											</div>
-											<select name="select" id="">
+											<select class='formtemp__select' name="select" id="">
 												<option value="" selected>Направления</option>
 												<option value="">Гитара</option>
 												<option value="">Вокал</option>
 												<option value="">Фортепиано</option>
 											</select>
+										</div>
 										</div>
 										<button class="button_formtemp">ЗАПИСАТЬСЯ</button>
 									</form>
@@ -216,16 +221,16 @@
 			</main>
 			<footer>
 				<div class="footer_container container">
-				<span class="footer_logo">Diez</span> 
-				<nav class="menu_footer">
-					<ul class="menu_list">
-						<li class="menu_item"><a href="#" class="menu_link">YOUTUBE</a></li>
-						<li class="menu_item"><a href="#" class="menu_link">INSTAGRAM</a></li>
-						<li class="menu_item"><a href="#" class="menu_link">FACEBOOK</a></li>
-						<li class="menu_item"><a href="#" class="menu_link">VKONTAKTE</a></li>
-					</ul>
-				</nav>
-			</div>
+					<span class="footer_logo">Diez</span> 
+					<nav class="menu_footer">
+						<ul class="menu_list">
+							<li class="menu_item"><a href="#" class="menu_link">YOUTUBE</a></li>
+							<li class="menu_item"><a href="#" class="menu_link">INSTAGRAM</a></li>
+							<li class="menu_item"><a href="#" class="menu_link">FACEBOOK</a></li>
+							<li class="menu_item"><a href="#" class="menu_link">VKONTAKTE</a></li>
+						</ul>
+					</nav>
+				</div>
 				
 			</footer>
 		</div>
