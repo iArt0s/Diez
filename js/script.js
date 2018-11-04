@@ -1,4 +1,3 @@
-<script type="text/javascript">
     // Функция ymaps.ready() будет вызвана, когда
     // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
     ymaps.ready(init);
@@ -15,4 +14,3 @@
             zoom: 7
         });
     }
-</script>
