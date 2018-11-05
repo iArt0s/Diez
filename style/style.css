@@ -54,6 +54,13 @@ h1{
     color: #fff
 
 }
+.header_logo,
+.footer_logo{
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff
+}
 
 h2{
     font-family: 'Prata', serif;
@@ -156,13 +163,14 @@ a{
 .formblock__title {
     margin: 0;
     line-height: 1;
-    padding-top: 12px; 
-    margin-bottom: 30px;
+/*    padding-top: 12px; 
+*/    margin-bottom: 15px;
 }
 
 .formblock_subtitle {
-    margin-top:30px;
-
+/*    margin-top:15px;
+*/
+font-size: 20px;
 }
 
 .formblock__input {
@@ -254,6 +262,8 @@ select {
     display: block;
     color: #fff;
     min-height: 170px;
+    position: relative;
+    padding-top: 10px
     
 }
 
@@ -328,6 +338,7 @@ select {
         margin: 0;
         padding: 0;
         white-space: nowrap;
+        margin-bottom: 30px;
     }
     .direction_text{
         position: absolute;
@@ -337,24 +348,24 @@ select {
         margin: 0;
         bottom: 0
     }
-    .direction_text:after {
-      content: '';
-      position: absolute;
-      display: inline-block;
-      height: 100%;
-      width: 1px;
-      background-color: #bbb;
-      bottom: 0;
-      left: 0;
-    }
-
-    .direction_text:before {
+    .direction_inner_title:after {
       content: '';
       position: absolute;
       display: inline-block;
       height: 100%;
       width: 2px;
-      background-color: #bbb;
+      background-color: #eec643;
+      bottom: 0;
+      left: 0;
+    }
+
+    .direction_inner_title:before {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 100%;
+      width: 2px;
+      background-color: #eec643;
       right: 0;
     }
     .temp_card_crew{
@@ -513,8 +524,8 @@ select {
       position: absolute;
       display: inline-block;
       height: 100%;
-      width: 1px;
-      background-color: #bbb;
+      width: 2px;
+      background-color: #eec643;
       bottom: 0;
       left: 0;
     }
@@ -524,8 +535,8 @@ select {
       position: absolute;
       display: inline-block;
       height: 100%;
-      width: 1px;
-      background-color: #bbb;
+      width: 2px;
+      background-color: #eec643;
       right: 0;
     }
     .school_text,.school_subtitle{
@@ -552,14 +563,15 @@ select {
       max-width: 570px;
       position: relative;
       margin-top: 0;
+      padding-left: 13px;
     }
     .title_hor:before{
       content: '';
       position: absolute;
       display: inline-block;
-      height: 1px;
+      height: 2px;
       width: 100%;
-      background-color: #bbb;
+      background-color: #eec643;
       top: 0;
       left: 0;
     }
@@ -567,9 +579,9 @@ select {
       content: '';
       position: absolute;
       display: inline-block;
-      height: 1px;
+      height: 2px;
       width: 100%;
-      background-color: #bbb;
+      background-color: #eec643;
       bottom: 0;
       left: 0;
     }
