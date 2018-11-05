@@ -293,7 +293,19 @@ select {
       background-repeat: no-repeat;
       background-position: center;
 }
-
+.school_big_card:after{
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 0;
+      background-image: url(../images/play.png);
+      background-repeat: no-repeat;
+      background-position: center;
+}
 .directions{
     margin-bottom: 92px;
 }
@@ -384,7 +396,7 @@ select {
     .direction_inner_title:after {
       content: '';
       position: absolute;
-      display: inline-block;
+      display: inline-block
       height: 100%;
       width: 2px;
       background-color: #eec643;
@@ -532,7 +544,6 @@ select {
         min-width: 100%;
         min-height: 400px;
     }
-
       .cherry_card{
         background-image: url(../images/video_card_img_1.jpg);
         background-size: cover;
