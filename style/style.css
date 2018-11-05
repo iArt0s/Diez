@@ -241,6 +241,7 @@ select {
   min-height: 270px;
   display: block;
   color: #fff;
+  padding-top: 20px;
 }
 .temp_card {
   width: 100%;
@@ -349,8 +350,17 @@ select {
     .col-8 {
         width: 66.64%;
     }
+    .direction_title{
+    padding-left: 15px;
+  }
+   .direction_subtitle{
+    padding-left: 15px;
+    line-height: 1.4;
+}
 .direction_titleV,.direction_subtitleV{
           transform: scale(-1, 1);
+          line-height: 1.4;
+          padding-left: 15px;
 }
     .direction_card_guitar{       
         background-image: url(../images/directions_card_img_1.jpg);
@@ -393,10 +403,17 @@ select {
         margin: 0;
         bottom: 0
     }
+    .direction_cost{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    }
     .direction_inner_title:after {
       content: '';
       position: absolute;
-      display: inline-block
+      display: inline-block;
       height: 100%;
       width: 2px;
       background-color: #eec643;
@@ -471,6 +488,7 @@ select {
         margin: 0;
         line-height: 1;
         margin-bottom: 30px;
+        color: #eec643;
     }
     .formtemp_subtitle {
         margin-top:0px;
@@ -534,7 +552,7 @@ select {
         margin-bottom: 55px;
     }
     .contacts_subtitle{
-        margin-left: 65px;
+        margin-left: 55px;
     }
     .footer_container{
         margin-top: 90px;
@@ -590,9 +608,18 @@ select {
       right: 0;
     }
     .school_text,.school_subtitle{
-/*       padding-top: 60px;
-*/       font-size: 14px;
-       margin: 0;
+     font-size: 14px;
+     margin: 0;
+     }
+    .school_big_text{
+      padding-left: 15px;
+      }
+      .school_big_subtitle{
+      font-size: 20px;
+      margin: 0;
+      padding-left: 15px;
+      padding-top: 25px;
+      line-height: 1.4;
 
 
     }
