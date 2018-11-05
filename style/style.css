@@ -168,8 +168,7 @@ a{
 }
 
 .formblock_subtitle {
-/*    margin-top:15px;
-*/
+
 font-size: 20px;
 }
 
@@ -247,12 +246,24 @@ select {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 20px;
   margin: 0;
   height: 100%;
   min-width: 270px;
   min-height: 470px;
   display: block;
   color: #fff;
+}
+.school_big_card {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;  
+    margin-bottom: 30px;
+    display: block;
+    color: #fff;
+    min-height: 170px;
+    position: relative;
+    padding-top: 20px
 }
 .school_card {
     width: 100%;
@@ -263,7 +274,10 @@ select {
     color: #fff;
     min-height: 170px;
     position: relative;
-    padding-top: 10px
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .school_card:after{
@@ -307,6 +321,7 @@ select {
     .col-9,
     .direction_text,
     .school_title_wrap {
+
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -400,12 +415,21 @@ select {
     background-image: url(../images/advantages_card_img_3.jpg);
     background-size: cover;
     min-height: 568px;
+    background-position: 25% 0;
     }
     .temp_text{
     color: #000;
     }
     .temp_title{
-        width: 100%;
+        width: 100%;    
+        padding-left: 10px;
+
+    }
+    .temp{
+        margin-bottom: 90px;
+    }
+    .temp_subtitle{
+      padding-left: 10px;
     }
     .inputs{
       height: 50%;
@@ -490,9 +514,6 @@ select {
         color: #f9fcfc;
         font-size: 20px;
     }
-    .temp{
-        margin-bottom: 90px;
-    }
     .school{
         margin-top: 90px;
     }
@@ -558,9 +579,10 @@ select {
       right: 0;
     }
     .school_text,.school_subtitle{
-       padding-top: 60px;
-       font-size: 14px;
+/*       padding-top: 60px;
+*/       font-size: 14px;
        margin: 0;
+
 
     }
     .school_card_yang{
