@@ -130,7 +130,7 @@ a{
 }
 
 .promo{
-    margin-bottom: 92px;
+    margin-bottom: 95px;
 }
 .promo_subtitle{
     color: #fff;
@@ -163,8 +163,7 @@ a{
 .formblock__title {
     margin: 0;
     line-height: 1;
-/*    padding-top: 12px; 
-*/    margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .formblock_subtitle {
@@ -388,20 +387,19 @@ select {
         writing-mode: vertical-lr;
         transform: rotate(-180deg);
         margin-left: -15px;
-        position: relative;
-        margin-top: 16px;
+        position: relative;  
+        height: 570px;
         margin: 0;
         padding: 0;
         white-space: nowrap;
-        margin-bottom: 30px;
-    }
+   }
     .direction_text{
         position: absolute;
-        margin-top: 91px;
-        margin-bottom: 10px;
+        height: 570px;
         padding: 0;
         margin: 0;
         bottom: 0
+        margin-bottom: 30px;
     }
     .direction_cost{
     font-family: 'PT Sans', sans-serif;
@@ -410,22 +408,22 @@ select {
     padding-top: 15px;
     padding-left: 15px;
     }
-    .direction_inner_title:after {
+    .direction_text:after {
       content: '';
       position: absolute;
       display: inline-block;
-      height: 100%;
+      height: 570px;
       width: 2px;
       background-color: #eec643;
       bottom: 0;
       left: 0;
     }
 
-    .direction_inner_title:before {
+    .direction_text:before {
       content: '';
       position: absolute;
       display: inline-block;
-      height: 100%;
+      height: 570px;
       width: 2px;
       background-color: #eec643;
       right: 0;
@@ -455,7 +453,7 @@ select {
 
     }
     .temp{
-        margin-bottom: 90px;
+        margin-bottom: 95px;
     }
     .temp_subtitle{
       padding-left: 10px;
@@ -545,10 +543,10 @@ select {
         font-size: 20px;
     }
     .school{
-        margin-top: 90px;
+        margin-top: 95px;
     }
     .contacts{
-        margin-top: 90px;
+        margin-top: 95px;
         margin-bottom: 55px;
     }
     .contacts_subtitle{
@@ -577,8 +575,7 @@ select {
         height: 570px;
         padding: 0;
         margin: 0;
-/*        bottom: 30px;
-*/    }
+   }
     .school_title{
         writing-mode: vertical-lr;
         transform: rotate(-180deg);
